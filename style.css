@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+body {
+    background: #23263a;
+}
+nav {
+    width: 100%;
+    height: 10vh;
+    background: #212336;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    width: 20%;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25vh;
+}
+
+.section-home-page{
+    block-size: 100%;
+    margin-top: 40px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.presentation-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    color: white;
+}
+
+.presentation-container h2 {
+    font-size: 70px;
+}
+
+.presentation-container p {
+    width: 50%;
+    color: #8c949c;
+}
+
+.progression-bar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cercle-progression1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #fd4856;
+    
+}
+
+.bar{
+    background-color: #8c8c9c;
+    width: 2px;
+    height: 50px;
+}
+
+.cercle-progression2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border:2px solid #fd4856;
+}
+
+.cercle-progression3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: 2px solid #fd4856;
+}
+
+.presentation-container button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #fd4856;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section-portfolio{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-project{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 32vh;
+    gap: 25px;
+}
+.title-project-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title-h2{
+    font-size: 50px;
+    color: #fd4856;
+    border-bottom: 2px solid #fd4856;
+    margin-bottom: 50px;
+}
+
+.projects {
+    width: 350px;
+    height: 32vh;
+    background-color: #fd4856;
+}
+
+.projects:nth-child(1){
+    background: url(/image/E\ Commerce\ Web\ Design\ Projects.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects:nth-child(2){
+    background: url(/image/Téléchargement\ 110708\ Website\ Design\ Items\ -\ Envato\ Elements.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects:nth-child(3){
+    background: url(/image/ISK\ Contabilidade\ -\ Inovalize\ _\ Soluções\ para\ Internet.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects:nth-child(4){
+    background: url(/image/The\ Great\ Outdoors.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projects:nth-child(5){
+    background: url(/image/Web\ design\ collection\ vol\ 1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects:nth-child(6){
+    background: url(/image/Web\ design\ collection\ vol\ 1\ \(1\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    
+
+
+.section-competence{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.title-competence-section{
+    width: 50%;
+}
+
+
+.box-competence {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.competence{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap: 25px;
+}
+
+.section-contact{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #fd4856;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #000000;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+  } 
+
+  @media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    main {
+        gap: 10vh;
+    }
+
+    .section-home-page {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .presentation-container p {
+        width: 100%;
+    }
+
+    .progression-bar {
+        flex-direction: row;
+    }
+
+    .bar {
+        height: 2px;
+        width: 50px;
+    }
+
+    .section-portfolio .box-project {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .title-h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .section-competence {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box-competence {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .title-competence-section {
+        width: 100%;
+    }
+
+    .section-contact {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
